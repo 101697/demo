@@ -11,6 +11,8 @@ public class DemoApplication {
                 System.out.println("branch 2");
                 System.out.println("komunikat");
 		SpringApplication.run(DemoApplication.class, args);
+                
+                System.out.println("branch 3");
 	}
 
 }
