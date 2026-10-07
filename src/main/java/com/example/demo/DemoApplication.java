@@ -13,6 +13,7 @@ public class DemoApplication {
 		SpringApplication.run(DemoApplication.class, args);
                 
                 System.out.println("master");
+                System.out.println("branch 3");
 	}
 
 }
