@@ -1,5 +1,6 @@
 package com.example.demo;
 
+import java.util.Date;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -15,6 +16,8 @@ public class DemoApplication {
                 System.out.println("branch 4");
                 System.out.println("master");
                 System.out.println("branch 3");
+
+				System.out.println(new Date());
 	}
 
 }
